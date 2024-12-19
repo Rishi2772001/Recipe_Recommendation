@@ -24,7 +24,6 @@ bash
 
 Copy code
 
-`.
 ├─ recipe_enhanced_v2.csv          
 ├─ recipe_recommendation.py       
 ├─ precompute_embeddings.py        
