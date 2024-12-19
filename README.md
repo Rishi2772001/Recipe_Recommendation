@@ -17,17 +17,7 @@ This project provides a global recipe recommendation system using a fine-tuned B
 -   **Interactive UI with Streamlit:**  
     A user-friendly web interface allows users to input ingredients and select a cuisine to retrieve recommended recipes with steps and images.
     
-
-## Project Structure
-
-bash
-
-`├─ recipe_enhanced_v2.csv          
-├─ recipe_recommendation.py       
-├─ precompute_embeddings.py        
-├─ app.py                          
-├─ fine_tuned_model.pt             
-└─ recipe_embeddings.npy`            
+       
 
 ## Setup and Installation
 
