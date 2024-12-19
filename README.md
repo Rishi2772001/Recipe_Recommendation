@@ -25,12 +25,12 @@ bash
 Copy code
 
 `.
-├─ recipe_enhanced_v2.csv          # Original dataset (ensure this is present)
-├─ recipe_recommendation.py        # Main training and preprocessing script
-├─ precompute_embeddings.py        # Script to generate and save recipe embeddings
-├─ app.py                          # Streamlit app for the user interface
-├─ fine_tuned_model.pt             # Saved fine-tuned model weights (generated after training)
-└─ recipe_embeddings.npy           # Saved recipe embeddings (generated after precomputation)` 
+├─ recipe_enhanced_v2.csv          
+├─ recipe_recommendation.py       
+├─ precompute_embeddings.py        
+├─ app.py                          
+├─ fine_tuned_model.pt             
+└─ recipe_embeddings.npy            
 
 ## Setup and Installation
 
