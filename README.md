@@ -22,22 +22,18 @@ This project provides a global recipe recommendation system using a fine-tuned B
 
 bash
 
-Copy code
-
-├─ recipe_enhanced_v2.csv          
+`├─ recipe_enhanced_v2.csv          
 ├─ recipe_recommendation.py       
 ├─ precompute_embeddings.py        
 ├─ app.py                          
 ├─ fine_tuned_model.pt             
-└─ recipe_embeddings.npy            
+└─ recipe_embeddings.npy`            
 
 ## Setup and Installation
 
 1.  **Clone the Repository:**
     
     bash
-    
-    Copy code
     
     `git clone <repository-url>
     cd <repository-directory>` 
@@ -46,8 +42,6 @@ Copy code
     
     bash
     
-    Copy code
-    
     `python3 -m venv venv
     source venv/bin/activate` 
     
@@ -55,15 +49,11 @@ Copy code
     
     bash
     
-    Copy code
-    
     `pip install -r requirements.txt` 
     
     Ensure that  `torch`,  `transformers`,  `pandas`,  `streamlit`,  `scikit-learn`, and  `numpy`  are installed. If not, install them individually:
     
     bash
-    
-    Copy code
     
     `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
     pip install transformers pandas scikit-learn numpy streamlit` 
@@ -79,8 +69,6 @@ Run the training script to preprocess data and fine-tune the BERT model:
 
 bash
 
-Copy code
-
 `python3 recipe_recommendation.py` 
 
 This will:
@@ -95,8 +83,6 @@ Next, generate embeddings for all recipes using the fine-tuned model:
 
 bash
 
-Copy code
-
 `python3 precompute_embeddings.py` 
 
 This will:
@@ -110,8 +96,6 @@ This will:
 Finally, launch the Streamlit application:
 
 bash
-
-Copy code
 
 `streamlit run app.py` 
 
