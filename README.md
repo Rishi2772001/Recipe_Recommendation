@@ -48,7 +48,8 @@ This project provides a global recipe recommendation system using a fine-tuned B
     `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
     pip install transformers pandas scikit-learn numpy streamlit` 
     
-4.  **Download the Dataset:**  Place the  `recipe_enhanced_v2.csv`  dataset into the project root if it’s not already there.
+4.  **Download the Dataset:**  You can find the enhanced recipes CSV file [here](https://www.kaggle.com/datasets/behnamrahdari/foodcom-enhanced-recipes-with-images).
+
     
 
 ## Running the Project
