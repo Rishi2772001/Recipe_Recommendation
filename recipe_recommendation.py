@@ -4,7 +4,7 @@ import torch
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Dataset
 from transformers import BertTokenizer, BertModel
-from transformers import AdamW
+from torch.optim import AdamW
 from sklearn.metrics.pairwise import cosine_similarity
 import ast
 import time
